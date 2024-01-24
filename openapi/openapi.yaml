@@ -1,0 +1,19 @@
+openapi: "3.0.3"
+info:
+  version: 2024.0.1
+  title: my coin analyst
+  description: Restful API for my coin analysis
+servers:
+  - url: http://www.rimapa0321.com
+    description: my coin analyst Service
+tags:
+  - name: mycoins
+    description: coin info
+paths:
+  /api/coin:
+    $ref: "./paths/coin.yaml"
+components:
+  schemas:
+    detail:
+      $ref: "./components/schemas/mycoins.yaml"
+    
