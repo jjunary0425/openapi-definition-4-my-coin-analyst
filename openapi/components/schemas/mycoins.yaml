@@ -3,16 +3,4 @@ properties:
   datas:
     type: array
     items:
-      type: object
-      properties:
-        symbol:
-          type: string
-        current:
-          type: object
-          properties:
-            price:
-              type: string
-            amount:
-              type: string
-            balance:
-              type: string
+      $ref: '../schemas/data.yaml'

@@ -16,4 +16,8 @@ components:
   schemas:
     detail:
       $ref: "./components/schemas/mycoins.yaml"
+    data:
+      $ref: "./components/schemas/data.yaml"
+    current:
+      $ref: "./components/schemas/current.yaml"
     

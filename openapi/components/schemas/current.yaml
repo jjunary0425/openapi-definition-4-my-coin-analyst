@@ -1,0 +1,8 @@
+type: object
+properties:
+  price:
+    type: string
+  amount:
+    type: string
+  balance:
+    type: string
