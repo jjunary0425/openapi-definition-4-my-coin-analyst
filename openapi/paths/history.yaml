@@ -1,0 +1,16 @@
+post:
+    summary: Adds a new history
+    tags:
+      - history
+    requestBody:
+      content:
+        application/json:     # Media type
+          schema:             # Request body contents
+            $ref: '../components/schemas/mycoins.yaml'   # Reference to an object
+    responses:
+      '200':
+        description: OK
+        content:
+          application/json:
+            schema:
+              $ref: '../components/schemas/message.yaml'
