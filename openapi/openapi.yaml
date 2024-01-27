@@ -9,13 +9,13 @@ servers:
 tags:
   - name: mycoins
     description: coin info
-  - name: history
-    description: history info
+  - name: investment
+    description: investment info
 paths:
   /api/coin:
     $ref: "./paths/coin.yaml"
-  /api/history:
-    $ref: "./paths/history.yaml"
+  /api/investment:
+    $ref: "./paths/investment.yaml"
 components:
   schemas:
     detail:
@@ -26,4 +26,10 @@ components:
       $ref: "./components/schemas/current.yaml"
     message:
       $ref: "./components/schemas/message.yaml"
+    myinvestment:
+      $ref: "./components/schemas/myinvestment.yaml"
+    investment:
+      $ref: "./components/schemas/investment.yaml"
+    coininvestment:
+      $ref: "./components/schemas/coininvestment.yaml"
     

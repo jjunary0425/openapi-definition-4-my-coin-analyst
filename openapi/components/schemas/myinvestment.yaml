@@ -1,0 +1,6 @@
+type: object
+properties:
+  datas:
+    type: array
+    items:
+      $ref: '../schemas/coininvestment.yaml'

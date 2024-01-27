@@ -1,0 +1,6 @@
+type: object
+properties:
+  symbol:
+    type: string
+  current:
+    $ref: '../schemas/investment.yaml'

@@ -1,0 +1,6 @@
+type: object
+properties:
+  deposit:
+    type: string
+  withdraw:
+    type: string

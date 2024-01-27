@@ -1,12 +1,12 @@
 post:
-    summary: Adds a new history
+    summary: Adds a new investment
     tags:
-      - history
+      - investment
     requestBody:
       content:
         application/json:     # Media type
           schema:             # Request body contents
-            $ref: '../components/schemas/mycoins.yaml'   # Reference to an object
+            $ref: '../components/schemas/myinvestment.yaml'   # Reference to an object
     responses:
       '200':
         description: OK
